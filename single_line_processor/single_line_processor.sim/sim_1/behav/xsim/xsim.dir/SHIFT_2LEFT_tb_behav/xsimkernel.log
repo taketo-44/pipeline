@@ -1,0 +1,7 @@
+Running: xsim.dir/SHIFT_2LEFT_tb_behav/xsimk.exe -simmode gui -wdb SHIFT_2LEFT_tb_behav.wdb -simrunnum 0 -socket 58363
+Design successfully loaded
+Design Loading Memory Usage: 29552 KB (Peak: 29552 KB)
+Design Loading CPU Usage: 405 ms
+Simulation completed
+Simulation Memory Usage: 30364 KB (Peak: 30364 KB)
+Simulation CPU Usage: 452 ms

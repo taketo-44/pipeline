@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="PIPLELINING_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="PIPLELINING_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="7,639.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="8,916.001 ns"></ZoomEndTime>
+      <Cursor1Time time="100,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="91"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/PIPLELINING_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PIPLELINING_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PIPLELINING_tb/pipeline/pc_ctrl/pc_next" type="array">
+      <obj_property name="ElementShortName">pc_next[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_next[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PIPLELINING_tb/pipeline/register/registers[3]" type="array">
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PIPLELINING_tb/pipeline/register/registers[2]" type="array">
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PIPLELINING_tb/pipeline/register/registers[1]" type="array">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PIPLELINING_tb/pipeline/alu_inst/zero_flag" type="logic">
+      <obj_property name="ElementShortName">zero_flag</obj_property>
+      <obj_property name="ObjectShortName">zero_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PIPLELINING_tb/pipeline/ex_mem_reg/zero_flag_out" type="logic">
+      <obj_property name="ElementShortName">zero_flag_out</obj_property>
+      <obj_property name="ObjectShortName">zero_flag_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PIPLELINING_tb/pipeline/ctrl/branch" type="logic">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PIPLELINING_tb/pipeline/id_ex_reg/branch_taken_out" type="logic">
+      <obj_property name="ElementShortName">branch_taken_out</obj_property>
+      <obj_property name="ObjectShortName">branch_taken_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PIPLELINING_tb/pipeline/ex_mem_reg/branch_taken_out" type="logic">
+      <obj_property name="ElementShortName">branch_taken_out</obj_property>
+      <obj_property name="ObjectShortName">branch_taken_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PIPLELINING_tb/pipeline/hazard_detector/hazard_detected" type="logic">
+      <obj_property name="ElementShortName">hazard_detected</obj_property>
+      <obj_property name="ObjectShortName">hazard_detected</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PIPLELINING_tb/pipeline/id_ex_reg/flush" type="logic">
+      <obj_property name="ElementShortName">flush</obj_property>
+      <obj_property name="ObjectShortName">flush</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PIPLELINING_tb/pipeline/ex_mem_reg/flush" type="logic">
+      <obj_property name="ElementShortName">flush</obj_property>
+      <obj_property name="ObjectShortName">flush</obj_property>
+   </wvobject>
+</wave_config>

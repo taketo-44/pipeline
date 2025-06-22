@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../single_line_processor.srcs/sources_1/new/ALU.v" \
+"../../../../single_line_processor.srcs/sources_1/new/ALU_32.v" \
+"../../../../single_line_processor.srcs/sources_1/new/ALU_BOTTOM.v" \
+"../../../../single_line_processor.srcs/sources_1/new/ALU_CTRL.v" \
+"../../../../single_line_processor.srcs/sources_1/new/ALU_TOP.v" \
+"../../../../single_line_processor.srcs/sources_1/new/CTRL.v" \
+"../../../../single_line_processor.srcs/sources_1/new/DATA_MEMORY.v" \
+"../../../../single_line_processor.srcs/sources_1/new/EXPANDER.v" \
+"../../../../../minipro/minipro.srcs/sources_1/new/FA.v" \
+"../../../../single_line_processor.srcs/sources_1/new/FA32.v" \
+"../../../../single_line_processor.srcs/sources_1/new/INST_MEM.v" \
+"../../../../single_line_processor.srcs/sources_1/new/MUX.v" \
+"../../../../single_line_processor.srcs/sources_1/new/MUX_5BIT.v" \
+"../../../../single_line_processor.srcs/sources_1/new/PC_CTRL.v" \
+"../../../../single_line_processor.srcs/sources_1/new/REGISTER.v" \
+"../../../../single_line_processor.srcs/sources_1/new/SCP.v" \
+"../../../../single_line_processor.srcs/sources_1/new/SHIFT_2LEFT.v" \
+"../../../../single_line_processor.srcs/sources_1/new/SHIFT_2LEFT_26.v" \
+"../../../../single_line_processor.srcs/sim_1/new/SCP_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
